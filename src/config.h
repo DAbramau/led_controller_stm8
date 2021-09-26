@@ -1,0 +1,8 @@
+#pragma once
+
+#define WS_LED_PORT     (PORT_C)
+#define WS_LED_PIN      (3)
+
+#define WS_LED_NUMBER   (5)
+    
+#define COLOR_SEQ   {0x0000FF, 0x00FF00, 0xFF0000, 0x0000FF, 0x00FF00, 0xFF0000, 0x00FFFF, 0xFF00FF, 0xFFFF00, 0x00FFFF, 0xFF00FF, 0xFFFF00}
