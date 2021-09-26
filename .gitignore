@@ -1,0 +1,26 @@
+# Ignore list for PlatformIO Firmware
+Firmware/.pio
+Firmware/.vscode/.browse.c_cpp.db*
+Firmware/.vscode/c_cpp_properties.json
+Firmware/.vscode/launch.json
+Firmware/.vscode/ipch
+
+
+# Ignore list for KiCAD Projects
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+# Netlist files (exported from Eeschema)
+*.net
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
